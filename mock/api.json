@@ -1,0 +1,12 @@
+{
+    "environment": "dev",
+    "user": {
+        "name": "First Last",
+        "permissions": ["Read", "Write", "Approve"]
+    },
+
+    "links": [
+        {"rel": "self", "href": "/api"},
+        {"rel": "promos", "href": "/api/promos"}
+    ]
+}

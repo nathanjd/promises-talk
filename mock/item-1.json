@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "name": "item 1",
+
+    "links": [
+        {"rel": "self", "href": "/api/items/1"}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "promises-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "lodash": "^3.6.0",
+    "when": "^3.7.2"
+  }
+}
