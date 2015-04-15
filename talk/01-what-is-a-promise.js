@@ -4,6 +4,8 @@
 
 // https://github.com/cujojs/when/blob/master/docs/api.md#api
 
+// https://github.com/nathanjd/promises-talk
+
 var when = require('when');
 
 function doSomethingAsync() {
@@ -26,8 +28,12 @@ doSomethingAsync().then(function (data) {
     console.log(data);
 });
 
+console.log('1');
+
 failSomethingAsync().then(function (data) {
     console.log(data);
 }).catch(function (error) {
     console.error(error);
 });
+
+console.log('2');

@@ -11,17 +11,19 @@ Item.search().then(function (results) {
     console.log(results);
 });
 
-Item.retrieve(1).then(function (results) {
+Item.retrieve(1).then(function (item) {
     console.log('\nItem.retrieve(1)');
-    console.log(results);
+    console.log(item);
 });
 
-Item.retrieve(2).then(function (results) {
+Item.retrieve(2).then(function (item) {
     console.log('\nItem.retrieve(2)');
-    console.log(results);
+    console.log(item);
 });
 
-Item.retrieve(3).then(function (results) {
+Item.retrieve(3).then(function (item) {
     console.log('\nItem.retrieve(3)');
-    console.log(results);
+    console.log(item);
+}).catch(function (error) {
+    // handle error
 });
