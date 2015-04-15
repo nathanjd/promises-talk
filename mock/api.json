@@ -7,6 +7,6 @@
 
     "links": [
         {"rel": "self", "href": "/api"},
-        {"rel": "promos", "href": "/api/promos"}
+        {"rel": "items", "href": "/api/items"}
     ]
 }
