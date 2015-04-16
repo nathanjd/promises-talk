@@ -6,10 +6,16 @@
 user@host [repo_dir] $ npm install
 ```
 
-## To run:
+## To start mocker server:
 
 ```
 user@host [repo_dir] # npm run-script start
 ```
 
-Open localhost in a web browser.
+## To run:
+
+```
+user@host [repo_dir] $ node talks/01-what-is-a-promise
+user@host [repo_dir] $ node talks/02-a-return-to-errors
+user@host [repo_dir] $ node talks/...
+```
