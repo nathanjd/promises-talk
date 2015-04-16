@@ -6,7 +6,7 @@
 user@host [repo_dir] $ npm install
 ```
 
-## To start mocker server:
+## To start mock server:
 
 ```
 user@host [repo_dir] # npm run-script start
